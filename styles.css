@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Style for the image container */
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Style for the images */
+img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Style for the Reset button */
+#reset {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Style for the Verify button */
+#verify {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Style for the message paragraph */
+#para {
+  text-align: center;
+  font-weight: bold;
+}
+
